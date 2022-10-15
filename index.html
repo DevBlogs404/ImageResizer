@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Resizer || Easily Resize Your Images Online Absolutly FREE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
+    <meta name="description" content="Image Resizer is a Free Online Tool that Quickly resizes your image files with the highest image quality.Easy to Use and Requires No Installation and permissions!">
+    <meta property="og:url" content="https://ResizeImage.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Image Resizer || Easily Resize Your Images Online Absolutly FREE">
+    <meta name="keywords" content="Image resizer free, Free image resizer, image resize, image resizer for free, resize image, how to resize image for free">
+    <link rel="shortcut icon" href="myFav.png" type="image/x-icon">
+    <meta property="og:description" content="Image Resizer is a Free Online Tool that Quickly resizes your image files with the highest image quality.Easy to Use and Requires No Installation and permissions!">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Free Image Resizer</h1>
+        <div class="work-container">
+            <div class="file-input">
+                <label for="file">Upload Your Image Here :</label>
+                <input type="file" name="file" id="file-upload">
+            </div>
+            <div class="res-inputs">
+                <div>
+                    <label for="height">Height :</label>
+                    <input type="text" name="height" id="height-input" value="0">
+                </div>
+               
+               <div>
+                <label for="width">Width :</label>
+                <input type="text" name="width" id="width-input" value="0">
+               </div>
+               <div>
+                <label for="checkbox">Kepp Aspect Ratio</label>
+                <input type="checkbox" name="checkbox" id="checkbox-input" checked>
+               </div>
+                
+            </div>
+        </div>
+        <div class="btns">
+            <button class="btn" id="submit">Resize</button>
+            <!-- <button class="btn" id="download">Download</button> -->
+        </div>
+        <div class="info">
+            <h3>Long Press <span>(Right click in case of a PC)</span> on the Image to Download the Resized Image</h3>
+        </div>
+        <canvas width="500" height="500" id="resizer-canvas"></canvas>
+    </div>
+</body>
+</html>
